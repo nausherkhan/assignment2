@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header{
+    background-color: #FF900E1A;
+    margin-bottom: 85px;
+    
+}
+
+/* --------------------------------------
+            nav styles 
+----------------------------------------- */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.nav-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* --------------------------------------
+            banner styles 
+----------------------------------------- */
+
+.banner{
+    padding: 100px 200px;
+    text-align: center;
+    
+}
+
+
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 32px;
+    
+
+}
+
+.banner-des{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+   
+}
+
+.btn-primary{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
+    margin-bottom: 42px;
+    
+}
+
+.center {
+    
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom: 50px;
+    
+  }
+
+
+/* --------------------------------------
+            main feature styles 
+----------------------------------------- */
+
+
+.main-container{
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    padding-right: 100px;
+}
+
+#quick{
+    font-weight: 500;
+font-size: 45px;
+color: #727272;
+}
+
+#our{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+}
+
+#features{
+    font-weight: 700;
+font-size: 45px;
+color: #FF900E;
+}
+.title{
+    margin-bottom: 30px;
+}
+
+.features-des{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+    margin-bottom: 30px;
+
+}
