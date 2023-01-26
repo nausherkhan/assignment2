@@ -75,7 +75,11 @@ nav li{
 .banner-des{
     font-weight: 400;
     font-size: 16px;
-    margin-bottom: 32px;   
+    margin-bottom: 32px;
+    color: #727272;
+    line-height: 26px;
+
+   
 }
 
 .btn-primary{
@@ -157,6 +161,8 @@ nav li{
     font-size: 16px;
     color: #727272;
     margin-bottom: 30px;
+    color: #727272;
+    line-height: 26px;
 }
 
 
@@ -191,6 +197,7 @@ nav li{
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+    line-height: 26px;
    
 
 }
@@ -226,6 +233,8 @@ nav li{
         margin-left: 120px;
         margin-right: 680px;
         margin-bottom: 100px;
+        color: #727272;
+    line-height: 26px;
     }
 
 
@@ -275,6 +284,8 @@ nav li{
     padding-right: 250px ;
     padding-left: 250px;
     margin-bottom: 50px;
+    color: #727272;
+    line-height: 26px;
 }
 
 .sponsor-title{
@@ -394,6 +405,12 @@ nav li{
         margin: 0px;
         justify-items: center;   
     }
+    .facts-sec{
+        margin-bottom: 50px;
+    }
+
+
+
     .facts-des{
         margin-left: 20px;
         margin-right: 20px;
@@ -473,9 +490,13 @@ nav li{
         text-align: center;
     }
 
-    .main-container2, .main-container{
+    .main-container2{
         flex-direction: column;
         
+    }
+
+    .main-container{
+        flex-direction: column-reverse;
     }
 
     .box-shadow{
@@ -484,8 +505,8 @@ nav li{
     }
 
     .box{
-        width: 300px;
-        height: 121px;
+        width: 310px;
+        height: 141px;
     }
     
   
